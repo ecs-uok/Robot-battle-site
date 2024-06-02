@@ -1,7 +1,7 @@
 import React from "react";
-import chamith from "../../assets/chamith.jpg";
+import chamith22 from "../../assets/chamith22.jpg";
 import kasunsir from "../../assets/kasun sir.jpg";
-import himal from "../../assets/himal.jpg";
+import himal2 from "../../assets/himal2.jpg";
 
 const teamMembers = [
   {
@@ -9,7 +9,7 @@ const teamMembers = [
     name: "L H G Gunawardhana",
     phone: "+94 76 786 3340",
     email: "himalgeethanjana18@gmail.com",
-    photo: himal, // Dummy photo
+    photo: himal2, // Dummy photo
   },
   {
     role: "Senior Treasurer",
@@ -21,12 +21,12 @@ const teamMembers = [
       "Lecturer, Department of Physics and Electronics, Faculty of Science, University of Kelaniya",
   },
   {
-    role: " President",
+    role: "President",
     name: "Chamith Dilshan",
     phone: "+94 78 256 3766",
     email: "dilshankmc@gmail.com",
-    photo: chamith,
-  },
+    photo: chamith22, // Corrected variable name
+  },
 ];
 
 const TeamCard = ({ member, className, index }) => (
@@ -49,10 +49,9 @@ const TeamCard = ({ member, className, index }) => (
 );
 
 const Team = () => (
-  <div className=" md:mb-20 md:mt-[-50px] mb-10 -mt-10">
+  <div className="md:mb-20 md:mt-[-50px] mb-10 -mt-10">
     <h2 className="relative pt-20 pb-2 mt-5 mb-6 text-3xl font-bold text-center text-white md:text-4xl font-krona md:mt-20">
       CONTACT US
-      
     </h2>
     <div className="flex flex-col gap-6 p-6 md:flex-row md:justify-center ">
       {teamMembers.map((member, index) => (
