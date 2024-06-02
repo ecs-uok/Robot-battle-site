@@ -7,7 +7,7 @@ const Home = () => {
       <div className=" text-white flex flex-col md:justify-start md:flex md:text-start md:items-start md:mt-3 md:px-20 md:mb-20 justify-center items-center gap-2 md:gap-5">
         <div>
           <h2 className=" font-krona text-xl opacity-90 md:text-3xl">
-            CRETIVE ROBOTICS
+            CREATIVE ROBOTICS
           </h2>
         </div>
         <div>
