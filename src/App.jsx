@@ -1,5 +1,5 @@
 import React from "react";
-import Countdown from "./components/countdown";
+//import Countdown from "./components/countdown";
 import Timeline from "./components/timeline";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
@@ -13,7 +13,7 @@ import About from "./components/AboutUs/About";
 
 const App = () => {
   return (
-    <div className="min-h-screen relative overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden">
       {" "}
       {/* Ensure relative positioning and no overflow */}
       <a name="home"><Navbar /></a>
