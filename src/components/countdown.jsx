@@ -28,34 +28,34 @@ const CountdownTimer = ({ targetDate }) => {
     <div className="md:mt-[100px]">
       {" "}
       {/* Add margin top */}
-      <h2 className="text-white text-center text-3xl font-krona mb-6  pt-20 pb-4 relative">
+      <h2 className="relative pt-20 pb-4 mb-6 text-3xl text-center text-white font-krona">
         REGISTRATION CLOSING IN
-        {/* <span className="block w-48 h-1 bg-white absolute left-1/2 transform -translate-x-1/2 bottom-0 mt-18 "></span> */}
+        {/* <span className="absolute bottom-0 block w-48 h-1 transform -translate-x-1/2 bg-white left-1/2 mt-18 "></span> */}
       </h2>
-      <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-12 pt-20">
+      <div className="flex flex-col items-center justify-center pt-20 space-y-8 md:flex-row md:space-y-0 md:space-x-12">
         {" "}
         {/* Increase space between boxes */}
-        <div className="neon-box flex flex-col items-center justify-center p-4 bg-gradiant-b from-violet-950 to-slate-900 text-center md:w-48 md:p-6 font-geliat">
-          <span className="text-white text-2xl font-semibold">Days</span>
-          <span className="text-white text-3xl font-semibold">
+        <div className="flex flex-col items-center justify-center p-4 text-center neon-box bg-gradiant-b from-violet-950 to-slate-900 md:w-48 md:p-6 font-geliat">
+          <span className="text-2xl font-semibold text-white">Days</span>
+          <span className="text-3xl font-semibold text-white">
             {timeLeft.days}
           </span>
         </div>
-        <div className="neon-box flex flex-col items-center justify-center p-4 bg-gradiant-b from-violet-950 to-slate-900 text-center md:w-48 md:p-6 font-geliat">
-          <span className="text-white text-2xl font-semibold">Hours</span>
-          <span className="text-white text-3xl font-semibold">
+        <div className="flex flex-col items-center justify-center p-4 text-center neon-box bg-gradiant-b from-violet-950 to-slate-900 md:w-48 md:p-6 font-geliat">
+          <span className="text-2xl font-semibold text-white">Hours</span>
+          <span className="text-3xl font-semibold text-white">
             {timeLeft.hours}
           </span>
         </div>
-        <div className="neon-box flex flex-col items-center justify-center p-4 bg-gradiant-b from-violet-950 to-slate-900 text-center md:w-48 md:p-6 font-geliat">
-          <span className="text-white text-2xl font-semibold">Minutes</span>
-          <span className="text-white text-3xl font-semibold">
+        <div className="flex flex-col items-center justify-center p-4 text-center neon-box bg-gradiant-b from-violet-950 to-slate-900 md:w-48 md:p-6 font-geliat">
+          <span className="text-2xl font-semibold text-white">Minutes</span>
+          <span className="text-3xl font-semibold text-white">
             {timeLeft.minutes}
           </span>
         </div>
-        <div className="neon-box flex flex-col items-center justify-center p-4 bg-gradiant-b from-violet-950 to-slate-900 text-center md:w-48 md:p-6 font-geliat">
-          <span className="text-white text-2xl font-semibold">Seconds</span>
-          <span className="text-white text-3xl font-semibold">
+        <div className="flex flex-col items-center justify-center p-4 text-center neon-box bg-gradiant-b from-violet-950 to-slate-900 md:w-48 md:p-6 font-geliat">
+          <span className="text-2xl font-semibold text-white">Seconds</span>
+          <span className="text-3xl font-semibold text-white">
             {timeLeft.seconds}
           </span>
         </div>
@@ -65,7 +65,7 @@ const CountdownTimer = ({ targetDate }) => {
 };
 
 export default function Countdown() {
-  const targetDate = new Date("2024-06-04T23:59:59"); // Set target date to May 25, 2024
+  const targetDate = new Date("2024-06-10T23:59:59"); // Set target date to May 25, 2024
 
   return (
     <div className="App">

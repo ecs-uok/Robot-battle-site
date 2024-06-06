@@ -1,5 +1,5 @@
 import React from "react";
-//import Countdown from "./components/countdown";
+import Countdown from "./components/countdown";
 import Timeline from "./components/timeline";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
