@@ -29,14 +29,14 @@ const sortedMobileEvents = mobileEvents.sort(
 const Timeline = () => {
   return (
     <>
-      <h2 className="text-white text-center text-2xl md:text-3xl font-krona font-bold  pb-2 relative mt-20 md:mt-20">
+      <h2 className="relative pb-2 mt-20 text-2xl font-bold text-center text-white md:text-3xl font-krona md:mt-20">
         TIMELINE
-        {/* <span className="block w-48 h-1 bg-white absolute left-1/2 transform -translate-x-1/2 bottom-0 mt-18 mb-0"></span> */}
+        {/* <span className="absolute bottom-0 block w-48 h-1 mb-0 transform -translate-x-1/2 bg-white left-1/2 mt-18"></span> */}
       </h2>
       <div className="hidden md:flex items-center justify-center min-h-[80vh] bg-gradient-to-r text-white overflow-hidden px-4 mt-0 pt-0">
         <div className="relative w-full max-w-6xl">
           <svg
-            className="absolute top-1/2 transform -translate-y-1/2 w-full h-96"
+            className="absolute w-full transform -translate-y-1/2 top-1/2 h-96"
             viewBox="0 0 1000 200"
             preserveAspectRatio="none"
           >
@@ -47,7 +47,7 @@ const Timeline = () => {
               fill="none"
             />
           </svg>
-          <div className="relative z-10 flex justify-between items-center w-full h-96">
+          <div className="relative z-10 flex items-center justify-between w-full h-96">
             {desktopEvents.map((event, index) => (
               <div
                 key={index}
@@ -56,10 +56,10 @@ const Timeline = () => {
                 }`}
                 style={{ left: `${event.x}%`, top: `${event.y}%` }}
               >
-                <div className="relative w-8 h-8 bg-pink-500 rounded-full mb-2">
+                <div className="relative w-8 h-8 mb-2 bg-pink-500 rounded-full">
                   <div className="absolute w-8 h-8 bg-pink-500 rounded-full animate-ping"></div>
                 </div>
-                <div className="p-2 rounded-lg text-xs md:text-sm">
+                <div className="p-2 text-xs rounded-lg md:text-sm">
                   <p className="text-xs md:text-sm">{event.date}</p>
                   <p className="font-bold">{event.title}</p>
                 </div>
@@ -73,17 +73,17 @@ const Timeline = () => {
           {sortedMobileEvents.map((event, index) => (
             <div
               key={index}
-              className="relative mb-8 flex flex-col items-center"
+              className="relative flex flex-col items-center mb-8"
             >
-              <div className="relative w-8 h-8 bg-pink-600 rounded-full mb-2">
+              <div className="relative w-8 h-8 mb-2 bg-pink-600 rounded-full">
                 <div className="absolute w-8 h-8 bg-pink-600 rounded-full animate-ping"></div>
               </div>
-              <div className="p-4 bg-gradient-to-r from-slate-950 to-violet-900 text-white rounded-lg text-center w-full">
+              <div className="w-full p-4 text-center text-white rounded-lg bg-gradient-to-r from-slate-950 to-violet-900">
                 <p className="text-sm">{event.date}</p>
                 <p className="font-bold font-poppins">{event.title}</p>
               </div>
               {index < sortedMobileEvents.length - 1 && (
-                <div className="w-1 h-8 bg-pink-600 mt-2"></div>
+                <div className="w-1 h-8 mt-2 bg-pink-600"></div>
               )}
             </div>
           ))}
