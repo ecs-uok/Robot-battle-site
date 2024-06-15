@@ -38,10 +38,7 @@ const Registration = () => {
 
            <div className="flex gap-8 flex-col md:flex-row md:gap-10 md:px-[-500px]">
            <div>
-              <Button
-                text="Registration Closed"
-                //url="https://docs.google.com/forms/d/1aW2N9A0GmMuo4zoIm7gCOGZIWwO4zoyA-lY4JXlxypQ/viewform?edit_requested=true"
-              />
+              
             </div>
             <div>
               <Button text="Robot Design Rules" url="https://drive.google.com/file/d/1MX2Jx5jBzSYpp8lU6p_3GJgD7AlYZxL_/view?usp=drivesdk" />
