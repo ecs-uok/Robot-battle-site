@@ -15,7 +15,7 @@ const mobileEvents = [
   { date: "2024 . 05 . 14", title: "Workshop" },
   { date: "2024 . 06 . 04", title: "Registration closing" },
   { date: "2024 . 06 . 08", title: "Awareness meeting" },
-  { date: "2024 . 06 . 30", title: "Robot battle" },
+  { date: "Two weeks after university resumes", title: "Robot battle" },
 ];
 
 // Function to parse and compare dates
