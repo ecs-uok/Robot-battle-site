@@ -29,12 +29,12 @@ const CountdownTimer = ({ targetDate }) => {
       {" "}
       {/* Add margin top */}
       <h2 className="relative pt-20 pb-4 mb-6 text-3xl text-center text-white font-krona">
-        REGISTRATION CLOSED
+        REGISTRATION CLOSING IN
         {/* <span className="absolute bottom-0 block w-48 h-1 transform -translate-x-1/2 bg-white left-1/2 mt-18 "></span> */}
       </h2>
       <div className="flex flex-col items-center justify-center pt-20 space-y-8 md:flex-row md:space-y-0 md:space-x-12">
         {" "}
-        {/* Increase space between boxes */}
+        
         <div className="flex flex-col items-center justify-center p-4 text-center neon-box bg-gradiant-b from-violet-950 to-slate-900 md:w-48 md:p-6 font-geliat">
           <span className="text-2xl font-semibold text-white">Days</span>
           <span className="text-3xl font-semibold text-white">
@@ -65,7 +65,7 @@ const CountdownTimer = ({ targetDate }) => {
 };
 
 export default function Countdown() {
-  const targetDate = new Date("2024-06-20T23:59:59"); // Set target date to May 25, 2024
+  const targetDate = new Date("2024-10-01T23:59:59"); // Set target date to May 25, 2024
 
   return (
     <div className="App">

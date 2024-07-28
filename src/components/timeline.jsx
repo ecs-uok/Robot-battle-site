@@ -2,20 +2,20 @@ import React from "react";
 
 const desktopEvents = [
   { date: "2024 . 04 . 12", title: "Registration open", x: 5, y: 40 },
-  { date: "2024 . 05 . 02", title: "Arena set up", x: 15, y: 27 },
   { date: "2024 . 05 . 14", title: "Workshop", x: 40, y: 65 },
-  { date: "2024 . 06 . 04", title: "Registration closing", x: 65, y: 27 },
-  { date: "2024 . 06 . 08", title: "Awareness meeting", x: 90, y: 63 },
-  { date: "2024 . 06 . 13", title: "Robot battle", x: 102, y: 50 },
+  { date: "2024 . 09 . 27", title: "Arena set up", x: 15, y: 27 },
+  { date: "2024 . 10 . 01", title: "Registration closing", x: 65, y: 27 },
+  { date: "2024 . 10 . 08", title: "Awareness meeting", x: 90, y: 63 },
+  { date: "2024 . 10 . 11", title: "Robot battle", x: 102, y: 50 },
 ];
 
 const mobileEvents = [
   { date: "2024 . 04 . 12", title: "Registration open" },
-  { date: "2024 . 05 . 02", title: "Arena set up" },
   { date: "2024 . 05 . 14", title: "Workshop" },
-  { date: "2024 . 06 . 04", title: "Registration closing" },
-  { date: "2024 . 06 . 08", title: "Awareness meeting" },
-  { date: "Two weeks after university resumes", title: "Robot battle" },
+  { date: "2024 . 05 . 02", title: "Arena set up", x: 15, y: 27 },
+  { date: "2024 . 10 . 01", title: "Registration closing" },
+  { date: "2024 . 10 . 08", title: "Awareness meeting" },
+  { date: "2024 . 10 . 11", title: "Robot battle" },
 ];
 
 // Function to parse and compare dates
