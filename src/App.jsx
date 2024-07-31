@@ -10,6 +10,7 @@ import Team from "./components/ContactUs/Contact";
 import Footer from "./components/Footer/Footer";
 import WininngPrices from "./components/WinningPrices/WininngPrices";
 import About from "./components/AboutUs/About";
+import Partnerships from "./components/PartnerShip/Partnerships"
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
       <Awareness />
       <a name="about"><About/></a>
       <WininngPrices />
+      <Partnerships />
       <a name="timeline"><Timeline/></a>
       <a name="contact"><Team/></a>
       <Footer />

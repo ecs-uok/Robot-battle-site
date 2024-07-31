@@ -29,7 +29,7 @@ const sortedMobileEvents = mobileEvents.sort(
 const Timeline = () => {
   return (
     <>
-      <h2 className="relative pb-2 mt-20 text-2xl font-bold text-center text-white md:text-3xl font-krona md:mt-20">
+      <h2 className="relative pb-2 mt-5 text-2xl font-bold text-center text-white md:text-3xl font-krona md:mt-20">
         TIMELINE
         {/* <span className="absolute bottom-0 block w-48 h-1 mb-0 transform -translate-x-1/2 bg-white left-1/2 mt-18"></span> */}
       </h2>
