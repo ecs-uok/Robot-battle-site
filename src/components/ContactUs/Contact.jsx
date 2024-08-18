@@ -2,6 +2,7 @@ import React from "react";
 import chamith22 from "../../assets/chamith22.jpg";
 import kasunsir from "../../assets/kasun sir.jpg";
 import himal2 from "../../assets/himal2.jpg";
+import waruna from "../../assets/Waruna.jpg";
 
 const teamMembers = [
   {
@@ -22,10 +23,10 @@ const teamMembers = [
   },
   {
     role: "President",
-    name: "Chamith Dilshan",
-    phone: "+94 78 256 3766",
-    email: "dilshankmc@gmail.com",
-    photo: chamith22, // Corrected variable name
+    name: "Waruna Hashan",
+    phone: "+94 71 063 1468",
+    email: "warunahashan@icloud.com",
+    photo: waruna, // Corrected variable name
   },
 ];
 
