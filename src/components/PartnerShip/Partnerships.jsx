@@ -7,6 +7,7 @@ import IEEE_logo from '../../assets/IEEE logo.png';
 import MicroRewards_logo from '../../assets/MicroRewards_teal.png';
 import gavel_logo from '../../assets/gavel.png';
 import ICAPS_logo from '../../assets/ICAPS.png';
+import code_chefs from '../../assets/code-chefs.png'
 
 const cards = [
   { id: 1, image: tronic_logo, title: 'TITLE PARTNER'  },
@@ -14,6 +15,7 @@ const cards = [
   { id: 3, image: MicroRewards_logo, title: 'DIGITAL CERTIFICATE PARTNER' },
   { id: 4, image: gavel_logo, title: 'MODERATING PARTNER'},
   { id: 5, image: ICAPS_logo, title: 'COLLABORATIVE PARTNER'},
+  { id: 6, image: code_chefs, title: 'Social Media Partner'},
 ];
 
 const Partnerships = () => {
