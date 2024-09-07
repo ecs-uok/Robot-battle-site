@@ -7,15 +7,16 @@ import IEEE_logo from '../../assets/IEEE logo.png';
 import MicroRewards_logo from '../../assets/MicroRewards_teal.png';
 import gavel_logo from '../../assets/gavel.png';
 import ICAPS_logo from '../../assets/ICAPS.png';
-import code_chefs from '../../assets/code-chefs.png'
+import code_chefs from '../../assets/code-chefs.png';
+import hackSL from '../../assets/HackSL-logo.png';
 
 const cards = [
   { id: 1, image: tronic_logo, title: 'TITLE PARTNER'  },
   { id: 2, image: IEEE_logo, title: 'TECHNOLOGY PARTNER' },
   { id: 3, image: MicroRewards_logo, title: 'DIGITAL CERTIFICATE PARTNER' },
-  { id: 4, image: gavel_logo, title: 'MODERATING PARTNER'},
-  { id: 5, image: ICAPS_logo, title: 'COLLABORATIVE PARTNER'},
-  { id: 6, image: code_chefs, title: 'Social Media Partner'},
+  { id: 4, image: gavel_logo, title: 'MODERATING PARTNER' },
+  { id: 5, image: ICAPS_logo, title: 'COLLABORATIVE PARTNER' },
+  { id: 6, images: [code_chefs, hackSL], title: 'Social Media Partners' },
 ];
 
 const Partnerships = () => {
@@ -59,7 +60,20 @@ const Partnerships = () => {
             {cards.map((card) => (
               <div key={card.id} className="p-4">
                 <div className="shadow-md rounded-lg p-2 flex flex-col items-center" style={{ height: '400px', width: '100%' }}>
-                  {card.image && (
+                  {/* If there are multiple images, render both */}
+                  {card.images ? (
+                    <div className="bg-white rounded-2xl mt-0 flex justify-around w-full">
+                      {card.images.map((image, index) => (
+                        <div key={index} className='w-1/2 h-48 border-2 border-gray-300 p-2 flex items-center justify-center overflow-hidden rounded-2xl'>
+                          <img
+                            src={image}
+                            alt={card.title}
+                            className="w-full h-full shadow-xl shadow-zinc-900/50"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
                     <div className="bg-white rounded-2xl mt-0">
                       <div className='w-full h-48 border-2 border-gray-300 p-2 flex items-center justify-center overflow-hidden rounded-2xl'>
                         <img
