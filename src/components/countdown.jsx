@@ -65,7 +65,7 @@ const CountdownTimer = ({ targetDate }) => {
 };
 
 export default function Countdown() {
-  const targetDate = new Date("2024-10-01T23:59:59"); // Set target date to oct 01, 2024
+  const targetDate = new Date("2024-10-02T23:59:59"); // Set target date to oct 01, 2024
 
   return (
     <div className="App">
