@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 
+
 const Home = () => {
   return (
     <div className=" flex flex-col justify-center items-center md:flex-row px-10 text-center mt-20 gap-5 mb-5 md:ml-[-50px]">
@@ -35,7 +36,7 @@ const Home = () => {
       <div className="">
         <img
           className="   hidden md:block md:w-[2400px] md:h-[550px] md:-mt-10 md:min-w-max shadow-2xl shadow-violet-500 rounded-lg"
-          src="/robo-new-home.png"
+          src="/logo.png"
           alt=""
         />
       </div>

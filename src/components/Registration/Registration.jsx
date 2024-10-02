@@ -30,11 +30,11 @@ const Registration = () => {
           </p>
 
           <div className=" flex flex-col j justify-between mt-10 md:flex-row  md:gap-20 md:mr-[200px] md:justify-start  gap-5 md:ml-[300px] lg:ml-[300px]">
-            <a href="https://docs.google.com/forms/d/1aW2N9A0GmMuo4zoIm7gCOGZIWwO4zoyA-lY4JXlxypQ/viewform?edit_requested=true">
+            {/* <a href="https://docs.google.com/forms/d/1aW2N9A0GmMuo4zoIm7gCOGZIWwO4zoyA-lY4JXlxypQ/viewform?edit_requested=true">
               <button className="px-4 py-2 text-lg text-white border-2 border-pink-400 rounded-full cursor-pointer bg-gradient-to-r from-pink-500 to-fuchsia-800 font-poppins">
                 Register Now
               </button>{" "}
-            </a>
+            </a> */}
 
            <div className="flex gap-8 flex-col md:flex-row md:gap-10 md:px-[-500px]">
            <div>
