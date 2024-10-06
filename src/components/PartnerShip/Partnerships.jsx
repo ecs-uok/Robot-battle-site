@@ -10,6 +10,7 @@ import ICAPS_logo from '../../assets/ICAPS.png';
 import code_chefs from '../../assets/code-chefs.png';
 import hackSL from '../../assets/HackSL-logo.png';
 import Xydder_3D_Logo_Blue from '../../assets/Xydder-3D-Logo-Blue.png';
+import photography from '../../assets/White Logo-07.jpg';
 
 const cards = [
   { id: 1, image: tronic_logo, title: 'TITLE PARTNER'  },
@@ -18,7 +19,8 @@ const cards = [
   { id: 4, image: gavel_logo, title: 'MODERATING PARTNER' },
   { id: 5, image: ICAPS_logo, title: 'COLLABORATIVE PARTNER' },
   { id: 6, images: [code_chefs, hackSL], title: 'SOCIAL MEDIA PARTNERS' },
-  { id: 5, image: Xydder_3D_Logo_Blue, title: ' 3D PRINTING PARTNER' },
+  { id: 7, image: Xydder_3D_Logo_Blue, title: ' 3D PRINTING PARTNER' },
+  { id: 8, image: photography, title: ' PHOTOGRAPHY PARTNER' },
 ];
 
 const Partnerships = () => {
