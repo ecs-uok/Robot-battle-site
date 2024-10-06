@@ -11,6 +11,7 @@ import code_chefs from '../../assets/code-chefs.png';
 import hackSL from '../../assets/HackSL-logo.png';
 import Xydder_3D_Logo_Blue from '../../assets/Xydder-3D-Logo-Blue.png';
 import photography from '../../assets/White Logo-07.jpg';
+import neo from '../../assets/NEO Logo.png';
 
 const cards = [
   { id: 1, image: tronic_logo, title: 'TITLE PARTNER'  },
@@ -21,6 +22,7 @@ const cards = [
   { id: 6, images: [code_chefs, hackSL], title: 'SOCIAL MEDIA PARTNERS' },
   { id: 7, image: Xydder_3D_Logo_Blue, title: ' 3D PRINTING PARTNER' },
   { id: 8, image: photography, title: ' PHOTOGRAPHY PARTNER' },
+  { id: 8, image: neo, title: '  ' },
 ];
 
 const Partnerships = () => {
