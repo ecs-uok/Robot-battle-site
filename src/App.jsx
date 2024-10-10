@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import WininngPrices from "./components/WinningPrices/WininngPrices";
 import About from "./components/AboutUs/About";
 import Partnerships from "./components/PartnerShip/Partnerships"
+import ButtonComponent from "./components/scoreboard"
 
 const App = () => {
   return (
@@ -40,7 +41,8 @@ const App = () => {
         </div>
       </div> */}
       <Home/>
-      <Countdown/>
+      {/* <Countdown/> */}
+      <ButtonComponent />
       <a name="register"><Registration/></a>
       <Awareness />
       <a name="about"><About/></a>
